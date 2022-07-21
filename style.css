@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(203, 45, 252), rgb(71, 71, 252));
+
+}
+
+.navgation {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 40px;
+    font-style: oblique;
+}
+
+.nv {
+    width: 100%;
+}
+
+
+.web_ctn {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+
+}
+
+li {
+    display: inline-block;
+}
+
+.web {
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    text-align: right;
+    color: white;
+    margin-left: 15px;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.web:hover {
+    background-color: rgba(255, 255, 255, 0.185);
+    padding-left: 8px;
+}
+
+.loginctn {
+    display: flex;
+    margin: 10px;
+}
+
+.log {
+    margin: 8px;
+    padding: 10px;
+    width: 80px;
+    height: 35px;
+    border: 0;
+    border-radius: 50px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: #55b9f3;
+    box-shadow: 2px 2px 4px #479aca, -2px -2px 4px #63d8ff;
+    cursor: pointer;
+}
+
+.textctn {
+    display: flex;
+    left: 10%;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 200px;
+    background-color: rgba(54, 54, 54, 0.274);
+    border-radius: 40px;
+    height: 70vh;
+    width: 70vw;
+}
+
+.text_ara {
+    width: 30vw;
+}
+
+.title {
+    display: flex;
+    align-content: space-between;
+    font-size: 60px;
+    margin: 10px;
+
+}
+
+.cont {
+    display: flex;
+    text-align: right;
+}
+
+.img {
+    width: 30vw;
+    padding: 30px;
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 30px;
+}
